@@ -1,4 +1,5 @@
-# Docker 
+# Docker  ![docker](https://user-images.githubusercontent.com/47558327/160234462-93679e1f-35a9-41d3-9560-ad7c223338a1.png)
+
 
 
 AWS - Run Docker in EC2
@@ -28,9 +29,9 @@ AWS - Run Docker in EC2
  
  Local Project Send to Server -------
  
-  1).scp -r -i yourawskey.pem dockerprojectdirectory instancename@......com:~/ ( "/" -> root )
+  1).Upload your docker project to server
   
-    Upload your docker project to server
+     scp -r -i yourawskey.pem dockerprojectdirectory instancename@......com:~/ ( "/" -> root )
   
   2).Build Docker Image 
   
